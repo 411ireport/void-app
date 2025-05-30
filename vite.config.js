@@ -8,4 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  base: process. env.VITE_BASE_PATH || "/411ireport/void-app"
 })
